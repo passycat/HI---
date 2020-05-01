@@ -1,0 +1,51 @@
+.title-text {
+    margin-top: 60rpx;
+    margin-left: 118rpx;
+    color: #AAAAAA;
+    font-size: 14px;
+}
+.showImg image {
+    width: 600rpx;
+    margin-top: 100rpx;
+    margin-left: 76rpx;
+}
+.upload {
+    background: #3172EE;
+    width: 100%;
+    height: 186rpx;
+    position: absolute;
+    bottom: 0rpx;
+    display: flex;
+    flex-direction: row;
+    margin-top: 34rpx;
+}
+.upload image {
+    width: 54rpx;
+    height: 42rpx;
+    margin-left: 294rpx;
+    margin-top: 34rpx;
+}
+.upload text {
+    display: block;
+    margin-left: 24rpx;
+    margin-top: 30rpx;
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 2.57px;
+}
+.lables {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 60rpx;
+}
+.lable-item {
+    text-align: center;
+    line-height: 28px;
+    height:28px;
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+    border:1px solid rgba(151,151,151,1);
+    margin: auto 10rpx;
+}

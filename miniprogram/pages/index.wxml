@@ -1,0 +1,15 @@
+<view class="page">
+    <view class="title-text">上传图片，会自动显示图片的主要特征标签</view>
+    <view class="showImg">
+        <image src="{{imgPath}}" mode="widthFix" bindtap="selectImg"></image>
+    </view>
+    <view class="lables">
+        <view wx:for="{{lableList}}" class="lable-item" wx:key="this">
+            {{item}}
+        </view>
+    </view>
+    <view class="upload" bindtap="uploadImg">
+        <image src="/images/cloud_upload.png"></image>
+        <text>上传</text>
+    </view>
+</view>
