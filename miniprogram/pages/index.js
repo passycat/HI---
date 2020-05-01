@@ -79,7 +79,6 @@ Page({
                             tempLable.push(Labels[i].Name)
                         }
                         this.setData({
-                            imgPath: fileID,
                             lableList: tempLable
                         })
                     })
