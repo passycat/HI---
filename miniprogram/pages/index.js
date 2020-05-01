@@ -88,7 +88,7 @@ Page({
                         wx.hideLoading({
                             complete: (res) => {},
                           })
-                          wx.showLoading({
+                          wx.showToast({
                             title: '取标签失败',
                             icon: "none"
                           })
@@ -100,7 +100,7 @@ Page({
                 wx.hideLoading({
                     complete: (res) => {},
                   })
-                  wx.showLoading({
+                  wx.showToast({
                     title: '审查失败',
                     icon: "none"
                   })
@@ -110,7 +110,7 @@ Page({
             wx.hideLoading({
               complete: (res) => {},
             })
-            wx.showLoading({
+            wx.showToast({
               title: '上传失败',
               icon: "none"
             })
