@@ -3,7 +3,7 @@ const cloud = require('wx-server-sdk')
 const extCi = require("@cloudbase/extension-ci");
 const tcb = require("tcb-admin-node");
 tcb.init({
-    env: "azhuo-id"
+  env: 'moggycat-m5hfj'
   });
 
 tcb.registerExtension(extCi);
@@ -16,10 +16,10 @@ async function lables(cloudPath) {
         action: "DetectLabel",
         cloudPath: cloudPath // 需要分析的图像的绝对路径，与tcb.uploadFile中一致
       });
-      //console.log(JSON.stringify(res.data, null, 4));
+      
       return res
     } catch (err) {
-      //console.log(JSON.stringify(err, null, 4));
+      
       return "" + err
     }
 }

@@ -3,7 +3,7 @@ const cloud = require('wx-server-sdk')
 const extCi = require("@cloudbase/extension-ci");
 const tcb = require("tcb-admin-node");
 tcb.init({
-  env: "azhuo-id"
+  env: 'moggycat-m5hfj'
 });
 tcb.registerExtension(extCi);
 cloud.init()
@@ -17,7 +17,7 @@ exports.main = async (event, context) => {
     }
     const res = await tcb.invokeExtension('CloudInfinite', {
       action: 'DetectType',
-      cloudPath: imgPath, // 需要分析的图像的绝对路径，与tcb.uploadFile中一致
+      cloudPath: imgPath, 
       operations: opts
     })
     return res.data.RecognitionResult
