@@ -8,8 +8,9 @@
             {{item}}
         </view>
     </view>
-    <view class="upload" bindtap="selectImg">
-        <image src="/images/cloud_upload.png"></image>
-        <text>上传</text>
+    <view class='bartable'>
+      <image src='/images/cloud_upload.png' style='width:27px;height:27px'></image>
+      <text>上传</text>
     </view>
+
 </view>

@@ -1,38 +1,42 @@
 .title-text {
-    margin-top: 30px;
-    margin-left: 59px;
-    margin-right: 50px;
-    color: #AAAAAA;
-    font-size: 14px;
+   color: #AAAAAA;
+  font-size: 14px;
+  margin-left:59px;
+  margin-top:30px;
+  line-height:20px;
 }
 .show image {
     width: 300px;
     margin-top: 50px;
     margin-left: 38px;
 }
-.upload {
+.bartable{
     background: #3172EE;
     width: 100%;
     height: 93px;
     position: fixed;
-    bottom: 0rpx;
     display: flex;
     flex-direction: row;
     margin-top: 17px;
+    bottom: 0rpx;
 }
-.upload image {
-    width: 27px;
-    height: 21px;
-    margin-left: 147px;
-    margin-top: 17px;
+
+.bartable image{
+  margin-left:147px;
+  margin-top:17px;
+  width:27px;
+  height:27px;
 }
-.upload text {
-    display: block;
-    margin-left: 12px;
-    margin-top: 15px;
-    color: #FFFFFF;
-    font-size: 18px;
-    letter-spacing: 2.57px;
+
+.bartable text{
+  color:#FFFFFF;
+  font-size:18px;
+  text-indent: 2.57px;
+  line-height:25px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 19px;
+  margin-left: 12px;
 }
 .lables {
     display: flex;
